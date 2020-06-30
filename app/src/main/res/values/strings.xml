@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChordsTest</string>
+    <string name="c_maj">C MAJ</string>
+    <string name="d_min">D MIN</string>
+    <string name="e_min">E MIN</string>
+    <string name="f_maj">F MAJ</string>
+</resources>
