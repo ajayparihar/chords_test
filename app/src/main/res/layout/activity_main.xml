@@ -30,6 +30,7 @@
         android:background="@drawable/buttonshape"
         android:shadowColor="#ff2f71f4"
         android:text="@string/d_min"
+        android:textAllCaps="false"
         android:textColor="#00BBFF"
         android:textSize="40sp"
         tools:text="d min" />
@@ -43,6 +44,7 @@
         android:background="@drawable/buttonshape"
         android:shadowColor="#ff2f71f4"
         android:text="@string/e_min"
+        android:textAllCaps="false"
         android:textColor="#00BBFF"
         android:textSize="40sp"
         tools:text="e min" />
