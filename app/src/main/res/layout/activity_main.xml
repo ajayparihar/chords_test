@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1DE9B6"
+    android:background="#E9B61D"
     tools:context=".MainActivity">
 
     <Button
@@ -18,7 +18,7 @@
         android:shadowColor="#ff2f71f4"
         android:text="@string/c_maj"
         android:textAllCaps="true"
-        android:textColor="#FFFFFFFF"
+        android:textColor="#1de9b6"
         android:textSize="40sp"
         tools:text="C maj" />
 
@@ -31,7 +31,7 @@
         android:background="@drawable/buttonshape"
         android:shadowColor="#ff2f71f4"
         android:text="@string/d_min"
-        android:textColor="#FFFFFFFF"
+        android:textColor="#1de9b6"
         android:textSize="40sp"
         tools:text="D MIN" />
 
@@ -44,7 +44,7 @@
         android:background="@drawable/buttonshape"
         android:shadowColor="#ff2f71f4"
         android:text="@string/e_min"
-        android:textColor="#FFFFFFFF"
+        android:textColor="#1de9b6"
         android:textSize="40sp"
         tools:text="E MIN" />
 
@@ -57,7 +57,7 @@
         android:background="@drawable/buttonshape"
         android:shadowColor="#ff2f71f4"
         android:text="@string/f_maj"
-        android:textColor="#FFFFFFFF"
+        android:textColor="#1de9b6"
         android:textSize="40sp"
         tools:text="F MAJ" />
 
