@@ -1,7 +1,6 @@
 package com.example.chordstest;
 
 import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Build;
 import android.os.Bundle;
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         sup = AnimationUtils.loadAnimation(this,R.anim.anim);
         sdow = AnimationUtils.loadAnimation(this,R.anim.anim2);
-
+/**
         {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "Enable System Volume",
@@ -51,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
             toast.show();
         }
+ **/
 
         button.setOnTouchListener(new View.OnTouchListener() {
             @Override

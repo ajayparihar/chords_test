@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blank"
+    android:background="#ffffff"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -24,9 +24,9 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/buttonshape"
         android:includeFontPadding="true"
-        android:shadowColor="#ff2f71f4"
+        android:shadowColor="#FFFFFF"
         android:text="@string/c_maj"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="50sp"
         app:fontFamily="@font/intut"
         tools:text="C MAJ" />
@@ -43,10 +43,10 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/buttonshape"
         android:includeFontPadding="true"
-        android:shadowColor="#ff2f71f4"
+        android:shadowColor="#FFFFFF"
         android:text="@string/d_min"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="50sp"
         app:fontFamily="@font/intut"
         tools:text="d min" />
@@ -64,10 +64,10 @@
         android:background="@drawable/buttonshape"
         android:gravity="center|center_horizontal|center_vertical"
         android:includeFontPadding="true"
-        android:shadowColor="#ff2f71f4"
+        android:shadowColor="#FFFFFF"
         android:text="@string/e_min"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="50sp"
         app:fontFamily="@font/intut"
         tools:text="e min" />
@@ -85,31 +85,12 @@
         android:background="@drawable/buttonshape"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="@string/f_maj"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="50sp"
         app:fontFamily="@font/intut"
         tools:text="F MAJ" />
 
-    <TextView
-        android:id="@+id/shadowView"
-        android:alpha="01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btest"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="63dp"
-        android:gravity="center"
-        android:selectAllOnFocus="false"
-        android:soundEffectsEnabled="false"
-        android:text="@string/chords"
-        android:textColor="#FFFFFF"
-        android:textSize="69.8sp"
-        app:fontFamily="@font/intut"
-        android:textStyle="bold"/>
+
 
     <TextView
         android:id="@+id/textView"
@@ -124,10 +105,33 @@
         android:layout_marginBottom="60dp"
         android:gravity="center"
         android:text="@string/chords"
-        android:textColor="#00203F"
+        android:textColor="#FFFFFF"
         android:textSize="70sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="20"
+        android:shadowDy="10"
+        android:shadowDx="10"
         app:fontFamily="@font/intut"
         android:textStyle="bold"/>
-
+    <TextView
+        android:id="@+id/shadowView"
+        android:alpha="01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btest"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:gravity="center"
+        android:selectAllOnFocus="false"
+        android:soundEffectsEnabled="false"
+        android:text="@string/chords"
+        android:textColor="#000000"
+        android:textSize="69.8sp"
+        app:fontFamily="@font/intut"
+        android:textStyle="bold"/>
 
 </RelativeLayout>
