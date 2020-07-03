@@ -10,7 +10,7 @@
 
     <Button
         android:id="@+id/btest"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/b2test"
         android:layout_alignParentStart="true"
@@ -23,13 +23,13 @@
         android:layout_marginRight="105.5dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/buttonshape"
-        android:includeFontPadding="true"
         android:shadowColor="#FFFFFF"
         android:text="@string/c_maj"
         android:textColor="#000000"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:fontFamily="@font/intut"
-        tools:text="C MAJ" />
+        tools:text="C (I)" />
 
     <Button
         android:id="@+id/b2test"
@@ -48,8 +48,9 @@
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:fontFamily="@font/intut"
-        tools:text="d min" />
+        tools:text="d (ii)" />
 
     <Button
         android:id="@+id/b3test"
@@ -69,8 +70,9 @@
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:fontFamily="@font/intut"
-        tools:text="e min" />
+        tools:text="e (iii)" />
 
     <Button
         android:id="@+id/b4test"
@@ -81,19 +83,21 @@
         android:layout_marginLeft="105.5dp"
         android:layout_marginEnd="105.5dp"
         android:layout_marginRight="105.5dp"
-        android:layout_marginBottom="130dp"
+        android:layout_marginBottom="115dp"
         android:background="@drawable/buttonshape"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="@string/f_maj"
         android:textColor="#000000"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:fontFamily="@font/intut"
-        tools:text="F MAJ" />
+        tools:text="F (IV)" />
 
 
 
     <TextView
         android:id="@+id/textView"
+        android:alpha="0.6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btest"
@@ -102,7 +106,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="63dp"
         android:gravity="center"
         android:text="@string/chords"
         android:textColor="#FFFFFF"
@@ -112,10 +116,10 @@
         android:shadowDy="10"
         android:shadowDx="10"
         app:fontFamily="@font/intut"
-        android:textStyle="bold"/>
+        android:textStyle="normal"/>
+
     <TextView
         android:id="@+id/shadowView"
-        android:alpha="01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btest"
@@ -123,15 +127,19 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="59dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="60dp"
         android:gravity="center"
         android:selectAllOnFocus="false"
         android:soundEffectsEnabled="false"
         android:text="@string/chords"
         android:textColor="#000000"
         android:textSize="69.8sp"
-        app:fontFamily="@font/intut"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        app:fontFamily="@font/intut" />
 
 </RelativeLayout>

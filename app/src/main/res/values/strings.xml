@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ChordsTest</string>
-    <string name="c_maj">C MAJ</string>
-    <string name="d_min">d min</string>
-    <string name="e_min">e min</string>
-    <string name="f_maj">F MAJ</string>
+    <string name="c_maj">C (I)</string>
+    <string name="d_min">d (ii)</string>
+    <string name="e_min">e (iii)</string>
+    <string name="f_maj">F (IV)</string>
     <string name="chords">CHORDS</string>
 </resources>
